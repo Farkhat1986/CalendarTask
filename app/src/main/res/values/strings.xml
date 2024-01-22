@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CalendarList</string>
+    <string name="n" translatable="false">"00-00 01-00</string>
+    <string name="n4" translatable="false">"03-00 04-00</string>
+    <string name="nt" translatable="false">"04-00 05-00</string>
+    <string name="title_activity_roomdb">Roomdb</string>
+</resources>
