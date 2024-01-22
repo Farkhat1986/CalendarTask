@@ -13,16 +13,12 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 
 class MainActivity : AppCompatActivity() {
-    val c = Calendar.getInstance()
-    val year = c.get(Calendar.YEAR)
-    val month= c.get(Calendar.MONTH)
-    val day= c.get(Calendar.DAY_OF_MONTH)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         calendarView.setOnDateChangeListener {
-            view, yeat, month, dayOfMonth ->
+            view, year, month, dayOfMonth ->
             textView.text = "$dayOfMonth.${month + 1}.$year"
         }
     }
